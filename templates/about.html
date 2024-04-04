@@ -2,6 +2,6 @@
 {% extends 'base.html' %}
 {% block title %} About us! {% endblock %}
 {% block body %}
-    <img src="bieber_bolton.jpg">
+    <img src="{{ url_for('static', filename='images/bieber_bolton.jpg') }}" alt="Nathan Bieber and Lindsey Bolton" width="500" height="500">
     <p>Nathan Bieber and Lindsey Bolton</p>
 {% endblock %}
